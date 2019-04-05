@@ -1,0 +1,27 @@
+The ability to securely access (replicate and distribute) directoryinformation throughout the network is necessary for
+successfuldeployment.  LDAP's acceptance as an access protocol for directoryinformation is driving the need to provide
+an access control modeldefinition for LDAP directory content among servers within anenterprise and the Internet. 
+Currently LDAP does not define anaccess control model, but is needed to ensure consistent secureaccess across
+heterogeneous LDAP implementations.  The requirementsfor access control are critical to the successful deployment anda
+ceptance of LDAP in the market place.
+This section is divided into several areas of requirements: general,semantics/policy, usability, and nested groups (an
+unresolved issue).
+The requirements are not in any priority order.  Examples andexplanatory text is provided where deemed necessary. 
+Usability isperhaps the one set of requirements that is generally overlooked, butmust be addressed to provide a secure
+system. Usability is a securityissue, not just a nice design goal and requirement. If it isimpossible to set and manage
+a policy for a secure situation that ahuman can understand, then what was set up will probably be non-secure. We all
+need to think of usability as a functional securityrequirement.
+Copyright (C) The Internet Society (2000).  All Rights Reserved.
+This document and translations of it may be copied and furnished toothers, and derivative works that comment on or
+otherwise explain itor assist in its implementation may be prepared, copied, publishedand distributed, in whole or in
+part, without restriction of anykind, provided that the above copyright notice and this paragraph areincluded on all
+such copies and derivative works.  However, thisdocument itself may not be modified in any way, such as by removingthe
+copyright notice or references to the Internet Society or otherInternet organizations, except as needed for the purpose
+ofdeveloping Internet standards in which case the procedures forcopyrights defined in the Internet Standards process
+must befollowed, or as required to translate it into languages other thanEnglish.
+The limited permissions granted above are perpetual and will not berevoked by the Internet Society or its successors or
+assigns.
+This document and the information contained herein is provided on an"AS IS" basis and THE INTERNET SOCIETY AND THE
+INTERNET ENGINEERINGTASK FORCE DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDINGBUT NOT LIMITED TO ANY WARRANTY
+THAT THE USE OF THE INFORMATIONHEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY IMPLIED WARRANTIES OFMERCHANTABILITY OR
+FITNESS FOR A PARTICULAR PURPOSE.
